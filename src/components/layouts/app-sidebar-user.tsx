@@ -37,7 +37,7 @@ import useSWR from "swr";
 import { getLocaleAction } from "@/i18n/get-locale";
 import { Suspense, useCallback } from "react";
 import { GithubIcon } from "ui/github-icon";
-import { DiscordIcon } from "ui/discord-icon";
+// import { DiscordIcon } from "ui/discord-icon";
 import { useThemeStyle } from "@/hooks/use-theme-style";
 import { BasicUser } from "app-types/user";
 import { getUserAvatar } from "lib/user/utils";
@@ -140,7 +140,7 @@ export function AppSidebarUserInner(props: {
             <DropdownMenuItem
               onClick={() => {
                 window.open(
-                  "https://github.com/cgoinglove/better-chatbot/issues/new",
+                  "https://github.com/vasanth-canopi/better-chatbot/issues/new",
                   "_blank",
                 );
               }}
@@ -148,14 +148,16 @@ export function AppSidebarUserInner(props: {
               <GithubIcon className="size-4 fill-foreground" />
               <span>{t("reportAnIssue")}</span>
             </DropdownMenuItem>
-            <DropdownMenuItem
+
+            {/* <DropdownMenuItem
               onClick={() => {
                 window.open("https://discord.gg/gCRu69Upnp", "_blank");
               }}
             >
               <DiscordIcon className="size-4 fill-foreground" />
               <span>{t("joinCommunity")}</span>
-            </DropdownMenuItem>
+            </DropdownMenuItem> */}
+
             <DropdownMenuSeparator />
 
             <DropdownMenuItem

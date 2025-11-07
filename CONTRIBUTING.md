@@ -41,7 +41,7 @@ This helps us:
 2. **Clone your fork** locally:
 
    ```bash
-   git clone https://github.com/YOUR_USERNAME/better-chatbot.git
+   git clone https://github.com/vasanth/better-chatbot.git
    cd better-chatbot
    ```
 

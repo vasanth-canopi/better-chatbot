@@ -142,7 +142,7 @@ export function UserInstructionsContent() {
             <Skeleton className="h-9" />
           ) : (
             <Input
-              placeholder="better-chatbot"
+              placeholder="syntax-ask"
               value={preferences.botName}
               onChange={(e) => {
                 setPreferences({
