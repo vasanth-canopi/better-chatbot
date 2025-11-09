@@ -222,7 +222,7 @@
       "temporaryChatInstructionsPlaceholder": "Enter your instructions here",
       "temporaryChatInstructionsDescription": "You can set instructions for the temporary chat. This will be used as a system prompt for the temporary chat."
     },
-    "placeholder": "Ask anything or @mention",
+    "placeholder": "Ask Syntax anything or @mention",
     "Tool": {
       "webSearching": "Searching the Web...",
       "searchedTheWeb": "Searched the Web",
@@ -290,7 +290,7 @@
     "ChatPreferences": {
       "title": "Chat Preferences",
       "whatShouldWeCallYou": "What should we call you?",
-      "botName": "Assistant Name",
+      "botName": "Syntax Ask",
       "whatBestDescribesYourWork": "What best describes your work?",
       "whatPersonalPreferencesShouldBeTakenIntoAccountInResponses": "What personal preferences should be taken into account in responses?",
       "responseStyleExample1": "e.g. keep explanations brief and to the point",
@@ -331,7 +331,7 @@
     "users": "Users",
     "toggleSidebar": "Toggle Sidebar",
     "newChat": "New Chat",
-    "mcpConfiguration": "MCP Configuration",
+    "mcpConfiguration": "MCP",
     "agents": "Agents",
     "newAgent": "Create Agent",
     "createAgent": "Create an agent",
@@ -748,7 +748,7 @@
     "marketplace": "Marketplace",
     "addMcpServer": "Add Server",
     "configureYourMcpServerConnectionSettings": "Configure your MCP server connection settings",
-    "mcpConfiguration": "MCP Configuration",
+    "mcpConfiguration": "MCP",
     "nameMustContainOnlyAlphanumericCharactersAndHyphens": "Name must contain only alphanumeric characters (A-Z, a-z, 0-9) and hyphens (-)",
     "nameIsRequired": "Name is required",
     "configurationSavedSuccessfully": "Configuration saved successfully",

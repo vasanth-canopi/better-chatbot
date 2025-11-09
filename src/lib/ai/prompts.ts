@@ -11,7 +11,7 @@ You are a chat title generation expert.
 
 Critical rules:
 - Generate a concise title based on the first user message
-- Title must be under 80 characters (absolutely no more than 80 characters)
+- Title must be under 40 characters (absolutely no more than 40 characters)
 - Summarize only the core content clearly
 - Do not use quotes, colons, or special characters
 - Use the same language as the user's message`;

@@ -35,6 +35,7 @@
     "db:migrate": "tsx scripts/db-migrate.ts",
     "db:pull": "drizzle-kit pull",
     "db:check": "drizzle-kit check",
+    "docker-compose:build": "docker-compose -f docker/compose.yml build --no-cache",
     "docker-compose:up": "docker-compose -f docker/compose.yml up -d --build",
     "docker-compose:down": "docker-compose -f docker/compose.yml down",
     "docker-compose:logs": "docker-compose -f docker/compose.yml logs -f",
